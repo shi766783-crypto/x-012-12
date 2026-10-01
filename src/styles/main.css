@@ -420,10 +420,38 @@ dd {
   color: #657266;
 }
 
+.growth-chart {
+  display: grid;
+  gap: 10px;
+}
+
+.growth-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.metric-toggle {
+  min-height: 32px;
+  padding: 5px 12px;
+  color: #405341;
+  border: 1px solid #cfdac7;
+  border-radius: 999px;
+  background: #f4f8ed;
+  font-size: 0.88rem;
+}
+
+.metric-toggle.active {
+  color: #fff;
+  border-color: #2f7d4f;
+  background: #2f7d4f;
+  font-weight: 700;
+}
+
 .growth-canvas {
   display: block;
   width: 100%;
-  height: 220px;
+  height: 240px;
   border: 1px solid #d8e2cf;
   border-radius: 8px;
 }
